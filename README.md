@@ -37,3 +37,27 @@ if ($diasrestantes -le 30) {
 
 Set-Content -Path $logsave -Value $retorna
 ```
+
+<h2>Comandos úteis: </h2>
+
+ *  Listar certificados pessoais
+   ```ps1
+Get-ChildItem Cert:\LocalMachine\My
+```
+
+*  Listar certificados de raiz
+ ```ps1
+Get-ChildItem Cert:\LocalMachine\Root
+```
+
+*  Listar certificados de autoridades de certificação
+ ```ps1
+Get-ChildItem Cert:\LocalMachine\CA
+```
+
+* Listar todos os certificados da máquina local
+```ps1
+Get-ChildItem Cert:\LocalMachine
+```
+
+
