@@ -1,6 +1,6 @@
 # Monitor certificate validity
 
-Monitorar validade de um certificado no Windows.
+Monitorar validade de certificados no Windows.
 
 <h2>Comandos úteis: </h2>
 
