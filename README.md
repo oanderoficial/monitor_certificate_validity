@@ -60,5 +60,15 @@ if ($diasrestantes -le 30) {
 Set-Content -Path $logsave -Value $retorna
 ```
 
+<h2> Implementando no Zabbix </h2>
+
+<strong> Criação do item: </strong> 
+
+![image](https://github.com/user-attachments/assets/1c54b4c4-853e-4be8-900c-f214b2f72846)
+
+<strong> Trigger de exemplo: </strong> 
+
+![image](https://github.com/user-attachments/assets/347c43be-a283-4e07-a670-25dbd29aacba)
+
 
 
